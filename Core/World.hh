@@ -21,8 +21,8 @@ namespace Carrot
             std::vector<Entity*> stepEntities;
             std::set<size_t> toBeDestroyed;
 
-            void handleCreation();
-            void handleDestruction();
+            void handleEntityCreation();
+            void handleEntityDestruction();
             
             Entity* instanceCreate( Entity* newEntity );
             void instanceDestroy( size_t entityId );
@@ -30,8 +30,7 @@ namespace Carrot
             void run();
             void step();
 
-        public:            
-            World();
+        public:
             ~World();
     };
 }
