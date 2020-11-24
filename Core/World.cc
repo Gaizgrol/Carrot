@@ -15,15 +15,25 @@ namespace Carrot
     {
         Entity* v = stepEntities[0];
         stepEntities.pop_back();
-        delete v;
+        instanceDestroy( v->getId() );
     }
 
     void World::handleCreation()
-    {   
+    {
     }
 
     void World::handleDestruction()
-    {   
+    {
+    }
+
+    Entity* World::instanceCreate( Entity* newEntity )
+    {
+        return newEntity;
+    }
+
+    void World::instanceDestroy( size_t instanceId )
+    {
+        toBeDestroyed.insert( instanceId );
     }
 
     void World::run()

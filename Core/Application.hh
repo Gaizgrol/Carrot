@@ -5,14 +5,19 @@
 
 namespace Carrot
 {
+    // Forward declaration
+    class Entity;
+
     class Application
     {
         private:
             static World* currentWorld;
 
         public:
-            static World* getCurrentWorld();
             static void run();
             static void start( World* startingWorld );
+
+            static Entity* instanceCreate( Entity* newEntity );
+            static void instanceDestroy( size_t entityId );
     };
 }

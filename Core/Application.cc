@@ -11,9 +11,14 @@ namespace Carrot
     // Referencing static symbols
     World* Application::currentWorld = nullptr;
 
-    World* Application::getCurrentWorld()
+    Entity* Application::instanceCreate( Entity* newEntity )
     {
-        return currentWorld;
+        currentWorld->instanceCreate( newEntity );
+    }
+
+    void Application::instanceDestroy( size_t entityId )
+    {
+        currentWorld->instanceDestroy( entityId );
     }
     
     void Application::run()

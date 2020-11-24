@@ -16,6 +16,11 @@ namespace Carrot
         std::cout << id << std::endl;
     }
 
+    size_t Entity::getId()
+    {
+        return id;
+    }
+
     void Entity::onStep()
     {
         std::cout << id << ": step()" << std::endl;

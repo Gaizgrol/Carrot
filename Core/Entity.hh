@@ -21,6 +21,7 @@ namespace Carrot
         public:
             Entity();
 
+            size_t getId();
             void onStep();
     };
 }
