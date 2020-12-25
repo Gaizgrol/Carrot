@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _CARROT_CORE_APPLICATION_
+#define _CARROT_CORE_APPLICATION_
 
 // Project libraries
 #include "World.hh"
@@ -10,10 +11,9 @@ namespace Carrot
 
     class Application
     {
-        private:
+        public:
             static World* currentWorld;
 
-        public:
             static void run();
             static void start( World* startingWorld );
 
@@ -21,3 +21,5 @@ namespace Carrot
             static void instanceDestroy( size_t entityId );
     };
 }
+
+#endif

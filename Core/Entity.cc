@@ -1,8 +1,10 @@
 // Global libraries
-#include <iostream>
+#include <type_traits>
+#include <unordered_map>
 
 // Project libraries
 #include "Entity.hh"
+#include "Serialization/type.hh"
 
 namespace Carrot
 {
@@ -12,17 +14,20 @@ namespace Carrot
     Entity::Entity()
     {
         id = lastId++;
-        active = true;
-        std::cout << id << std::endl;
+        isActive = true;
+        isDestroyed = false;
+        layer = 0;
+        position[0] = 0;
+        position[1] = 0;
+    }
+
+    Entity::~Entity()
+    {
+        components.clear();
     }
 
     size_t Entity::getId()
     {
         return id;
-    }
-
-    void Entity::onStep()
-    {
-        std::cout << id << ": step()" << std::endl;
     }
 }

@@ -83,7 +83,6 @@ namespace Carrot
 
     void World::step()
     {
-        for ( const auto& entity : stepEntities )
-            entity->onStep();
+        
     }
 }

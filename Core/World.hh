@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _CARROT_CORE_WORLD_
+#define _CARROT_CORE_WORLD_
 
 // Global libraries
 #include <vector>
@@ -34,3 +35,5 @@ namespace Carrot
             ~World();
     };
 }
+
+#endif
