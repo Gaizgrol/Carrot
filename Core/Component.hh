@@ -8,7 +8,6 @@ namespace Carrot
 
     class Component
     {
-        /*
         public:
             void onCreate();
             void onUpdate();
@@ -18,9 +17,8 @@ namespace Carrot
 
         protected:
             friend class Entity;
-
+            
             Entity* owner;
-        */
     };
 }
 

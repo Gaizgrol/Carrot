@@ -49,7 +49,7 @@ namespace Carrot
                 Modifier( std::initializer_list<int> modifiers );
                 
                 std::string operator()( const bool& reset = false );
-                std::string operator()( const char* texto );
+                std::string operator()( const char* text );
                 std::string operator()( const std::string& text, bool reset = true );
             
             private:

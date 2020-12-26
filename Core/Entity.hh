@@ -1,7 +1,7 @@
 #ifndef _CARROT_CORE_ENTITY_
 #define _CARROT_CORE_ENTITY_
 
-// Global libraries
+// Global includes
 #include <memory>
 #include <string>
 #include <unordered_map>
@@ -43,6 +43,7 @@ namespace Carrot
     };
 }
 
+// Template implementation
 #include "Entity.tcc"
 
 #endif

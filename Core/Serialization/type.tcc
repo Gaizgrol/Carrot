@@ -1,3 +1,12 @@
+// Avoid including this file directly
+#ifndef _CARROT_CORE_SERIALIZATION_TYPE_
+#error Include type.hh instead of type.tcc
+#endif
+
+// Interface include
+#include "type.hh"
+
+// Global includes
 #include <string>
 #include <typeinfo>
 

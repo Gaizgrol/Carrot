@@ -1,6 +1,7 @@
 #ifndef _CARROT_CORE_SERIALIZATION_TYPE_
 #define _CARROT_CORE_SERIALIZATION_TYPE_
 
+// Global includes
 #include <string>
 
 namespace Carrot
@@ -10,6 +11,6 @@ namespace Carrot
 }
 
 // Template implementation
-#include "type.cc"
+#include "type.tcc"
 
 #endif

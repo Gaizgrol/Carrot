@@ -19,9 +19,9 @@ namespace Carrot
             return operator()("", reset);
         }
 
-        std::string Modifier::operator()( const char* texto )
+        std::string Modifier::operator()( const char* text )
         {
-            return operator()( std::string(texto) );
+            return operator()( std::string(text) );
         }
         
         std::string Modifier::operator()( const std::string& text, bool reset )

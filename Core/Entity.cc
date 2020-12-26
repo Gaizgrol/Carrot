@@ -1,9 +1,11 @@
-// Global libraries
+// Interface include
+#include "Entity.hh"
+
+// Global includes
 #include <type_traits>
 #include <unordered_map>
 
-// Project libraries
-#include "Entity.hh"
+// Project includes
 #include "Serialization/type.hh"
 
 namespace Carrot

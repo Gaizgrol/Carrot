@@ -1,17 +1,15 @@
 #ifndef _CARROT_CORE_WORLD_
 #define _CARROT_CORE_WORLD_
 
-// Global libraries
+// Global includes
 #include <vector>
 #include <set>
-
-// Project libraries
-#include "Entity.hh"
 
 namespace Carrot
 {
     // Forward declaration
     class Application;
+    class Entity;
 
     class World
     {

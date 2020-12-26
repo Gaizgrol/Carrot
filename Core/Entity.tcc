@@ -1,3 +1,9 @@
+// Avoid including this file directly
+#ifndef _CARROT_CORE_ENTITY_
+#error Include Entity.hh instead of Entity.tcc
+#endif
+
+// Interface include
 #include "Entity.hh"
 
 // Global includes

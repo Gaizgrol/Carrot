@@ -1,4 +1,4 @@
-// Project libraries
+// Interface include
 #include "Component.hh"
 
 namespace Carrot

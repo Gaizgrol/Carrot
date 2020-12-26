@@ -1,9 +1,11 @@
-// Global libraries
+// Interface include
+#include "Application.hh"
+
+// Global includes
 #include <chrono>
 #include <thread>
 
-// Project libraries
-#include "Application.hh"
+// Project includes
 #include "World.hh"
 
 namespace Carrot

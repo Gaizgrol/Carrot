@@ -1,8 +1,8 @@
-// Global libraries
-#include <iostream>
-
-// Project libraries
+// Interface include
 #include "World.hh"
+
+// Global includes
+#include <iostream>
 
 namespace Carrot
 {
