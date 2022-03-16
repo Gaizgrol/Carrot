@@ -1,6 +1,6 @@
 // Avoid including this file directly
 #ifndef _CARROT_CORE_SERIALIZATION_TYPE_
-#error Include type.hh instead of type.tcc
+#error Include type.hh instead of type.ii
 #endif
 
 // Interface include

@@ -1,6 +1,6 @@
 // Avoid including this file directly
 #ifndef _CARROT_CORE_ENTITY_
-#error Include Entity.hh instead of Entity.tcc
+#error Include Entity.hh instead of Entity.ii
 #endif
 
 // Interface include

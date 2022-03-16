@@ -11,6 +11,6 @@ namespace Carrot
 }
 
 // Template implementation
-#include "type.tcc"
+#include "type.ii"
 
 #endif

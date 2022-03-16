@@ -1,6 +1,8 @@
 #ifndef _CARROT_CORE_APPLICATION_
 #define _CARROT_CORE_APPLICATION_
 
+#include <cstddef>
+
 namespace Carrot
 {
     // Forward declaration

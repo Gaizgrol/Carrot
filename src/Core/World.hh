@@ -1,16 +1,15 @@
 #ifndef _CARROT_CORE_WORLD_
 #define _CARROT_CORE_WORLD_
 
+#include "Application.hh"
+#include "Entity.hh"
+
 // Global includes
 #include <vector>
 #include <set>
 
 namespace Carrot
 {
-    // Forward declaration
-    class Application;
-    class Entity;
-
     class World
     {
         private:

@@ -44,6 +44,6 @@ namespace Carrot
 }
 
 // Template implementation
-#include "Entity.tcc"
+#include "Entity.ii"
 
 #endif

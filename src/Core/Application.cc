@@ -15,7 +15,7 @@ namespace Carrot
 
     Entity* Application::instanceCreate( Entity* newEntity )
     {
-        currentWorld->instanceCreate( newEntity );
+        return currentWorld->instanceCreate( newEntity );
     }
 
     void Application::instanceDestroy( size_t entityId )
