@@ -4,8 +4,6 @@
 
 *Carrot* é um motor de jogos 2D de código aberto gravado em C++.
 
----
-
 ## :dart: Objetivo:
 
 Criar um motor de jogos básico baseado no modelo [ECS](https://pt.wikipedia.org/wiki/Entity-component-system). Por enquanto, sem interface gráfica: o motor só vai cuidar da parte lógica e de gerenciamento de entidades e componentes.
