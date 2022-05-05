@@ -1,22 +1,20 @@
-# ![Carrot Icon](./icon.png) Carrot Engine ![Carrot Icon](./icon.png)
+# 🥕 Carrot Engine 🥕
 
 ## :book: Descrição
 
 *Carrot* é um motor de jogos 2D de código aberto gravado em C++.
 
+🥗 *Carrot* faz parte do ecossistema *Salad* 🥗
+
 ## :dart: Objetivo:
 
-Criar um motor de jogos básico baseado no modelo [ECS](https://pt.wikipedia.org/wiki/Entity-component-system). Por enquanto, sem interface gráfica: o motor só vai cuidar da parte lógica e de gerenciamento de entidades e componentes.
+Criar um motor de jogos básico baseado no modelo [ECS](https://pt.wikipedia.org/wiki/Entity-component-system). O motor só vai cuidar da parte lógica e de gerenciamento de entidades e componentes.
 
 ## :gear: Responsabilidades do motor:
 
 - 🟥 Lógica de atualização
-- 🟥 Controle de janela e monitores
-- 🟥 Desenho
-- 🟥 Interação com dispositivos de entrada
 - 🟥 Serialização
-- 🟥 Sons
-- 🟥 Física
+- 🟥 Ferramentas auxiliares (grafos e outras estruturas de dados)
 
 Legenda - 🟢: Feito 🔶: Em andamento 🟥: Não iniciado
 
@@ -48,10 +46,19 @@ Legenda - 🟢: Feito 🔶: Em andamento 🟥: Não iniciado
 
 - Crie uma nova [**issue**](https://github.com/Gaizgrol/Carrot/issues) no projeto.
 - Realize um *fork* do projeto no GitHub.
-- Faça as alterações necessárias e envie para o seu *fork*.
-- Crie uma *pull request* para a branch `main` e descreva as alterações realizadas.
+- Faça as alterações necessárias e envie para o seu fork com o padrão de commits utilizado no https://gitmoji.dev.
+- Crie uma pull request para a branch main e descreva as alterações realizadas.
+- Referencie sua issue na pull request criada.
 
 ## :x: Problemas
 
 - Caso não consiga executar algum comando ou não consiga abrir a janela do projeto, verifique se as dependências foram corretamente instaladas.
 - Caso tenha algum erro de execução, sinta-se à vontade para criar uma nova [**issue**](https://github.com/Gaizgrol/Carrot/issues) no projeto.
+
+## 🥗 Ecossistema *Salad*:
+- 🥬 *Cabbage*: https://github.com/Gaizgrol/Cabbage
+- 🥕 *Carrot*: https://github.com/Gaizgrol/Carrot
+- 🥦 *Cauliflower*: `// Em breve...`
+- 🥒 *Cucumber*: `// Em breve...`
+- 🌶️ *Chili*: `// Em breve...`
+- 🌽 *Corn*: `// Em breve...`
